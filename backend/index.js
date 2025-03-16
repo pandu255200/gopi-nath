@@ -21,6 +21,10 @@ app.use(cookieParser());
 const couponRoutes = require('./routes/couponRoutes');
 const adminRoutes = require('./routes/adminRoutes');
 
+app.get("/", (req,res) =>{
+  res.json("Hello")
+})
+
 app.use('/api', couponRoutes);
 app.use('/api/admin', adminRoutes);
 
