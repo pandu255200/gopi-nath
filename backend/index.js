@@ -6,7 +6,11 @@ const app = express();
 
 // ✅ FIXED: Proper CORS Configuration
 app.use(cors({
-  origin: ['http://localhost:3000', 'http://localhost:3001', 'https://frontend-five-neon-91.vercel.app'],
+  origin: [
+    'http://localhost:3000',
+    'http://localhost:3001',
+    'https://frontend-five-neon-91.vercel.app'
+  ],
   credentials: true
 }));
 
