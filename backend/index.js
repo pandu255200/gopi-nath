@@ -9,7 +9,7 @@ app.use(cors({
   origin: [
     'http://localhost:3000',
     'http://localhost:3001',
-    'https://frontend-five-neon-91.vercel.app'
+    'https://frontend-five-neon-91.vercel.app/'
   ],
   credentials: true
 }));
